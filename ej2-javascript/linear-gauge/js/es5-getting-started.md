@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Es5 getting started in ##Platform_Name## Linear gauge control
 
-This section explains you the steps to create a simple Linear Gauge and demonstrates the basic usage of the Linear Gauge component.
+This section explains you the steps to create a simple [JavaScript Linear Gauge](https://www.syncfusion.com/javascript-ui-controls/js-linear-gauge) and demonstrates the basic usage of the Linear Gauge component.
 
 ## Control Initialization
 
@@ -181,3 +181,5 @@ The pointer value is changed in the below sample using the [`value`](../api/line
 {% endtabs %}
         
 {% previewsample "page.domainurl/code-snippet/linear-gauge/es5-getting-started-cs5" %}
+
+N> You can also explore our [JavaScript Linear Gauge example](https://ej2.syncfusion.com/demos/#/bootstrap5/linear-gauge/default.html) that shows you how to render the Linear Gauge in JavaScript.

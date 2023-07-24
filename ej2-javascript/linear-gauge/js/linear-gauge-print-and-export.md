@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 ## Print
 
-The rendered linear gauge can be printed directly from the browser by calling the [`print`](../api/linear-gauge/#print) method. To use the print functionality, set the [`allowPrint`](../api/linear-gauge/#allowprint) property as **true**.
+The rendered [JavaScript Linear Gauge](https://www.syncfusion.com/javascript-ui-controls/js-linear-gauge) can be printed directly from the browser by calling the [`print`](../api/linear-gauge/#print) method. To use the print functionality, set the [`allowPrint`](../api/linear-gauge/#allowprint) property as **true**.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
