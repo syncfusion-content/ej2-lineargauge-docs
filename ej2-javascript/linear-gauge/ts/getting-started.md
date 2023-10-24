@@ -30,15 +30,23 @@ Following is the list of minimum dependencies required to use the Linear Gauge.
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -46,12 +54,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
-![ej2 typescript seed local setup](images/local-setup.png)
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
 
-> To learn more about the individual packages and different ways to install them, refer [here](https://ej2.syncfusion.com/documentation/installation-and-upgrade/installation/).
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -59,9 +68,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -71,7 +84,9 @@ The Essential JS2 Linear Gauge component can be added to the application. To get
 
 Add an HTML div element to act as the Linear Gauge element in the **index.html** file using the following code.
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,11 +105,15 @@ Add an HTML div element to act as the Linear Gauge element in the **index.html**
 </body>
 
 </html>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 Import the LinearGauge component in the **app.ts** file to initialize the Linear Gauge and append the Linear Gauge instance to the `#container`.
 
-```javascript
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { LinearGauge } from '@syncfusion/ej2-lineargauge';
 
 // initialize linear gauge component
@@ -102,15 +121,21 @@ let gauge: LinearGauge = new LinearGauge();
 
 // render initialized linear gauge
 gauge.appendTo('#container');
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 The quickstart project is configured to compile and run the application in the browser. Use the following command to run the application.
 
-  ```
-   npm start
-  ```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm start
+
+{% endhighlight %}
+{% endtabs %}
 
 The below example shows a basic Linear Gauge component.
 
@@ -134,11 +159,14 @@ Linear Gauge component is segregated into individual feature-wise modules. In or
 
 Now import the above mentioned modules from the Linear Gauge package and inject it into the LinearGauge component using **LinearGauge.Inject** method.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { GaugeTooltip, Annotations } from '@syncfusion/ej2-lineargauge';
 LinearGauge.Inject(Annotations, GaugeTooltip);
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding the Linear Gauge Title
 
