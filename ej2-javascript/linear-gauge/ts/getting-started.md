@@ -83,9 +83,9 @@ Add an HTML div element to act as the Linear Gauge element in the **index.html**
 </head>
 
 <body>
-     <!-- container which is going to render the linear gauge -->
-     <div id='container'>
-     </div>
+    <!-- container which is going to render the linear gauge -->
+    <div id='container'>
+    </div>
 </body>
 
 </html>
