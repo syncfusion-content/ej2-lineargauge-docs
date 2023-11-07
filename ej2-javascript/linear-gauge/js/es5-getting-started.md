@@ -77,10 +77,10 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
     </head>
     <body>
         <!-- Add the HTML <lineargauge> element  -->
-        <lineargauge id="element">Linear Gauge</lineargauge>
+        <div id="element" style="display: block;">Linear Gauge</div>
         <script>
             // initialize lineargauge control
-            var lineargauge = new ej.lineargauge.LinearGauge();
+            var lineargauge = new ej.lineargauge.LinearGauge({ height: '400px' });
             // Render initialized lineargauge.
             lineargauge.appendTo('#element');
         </script>
