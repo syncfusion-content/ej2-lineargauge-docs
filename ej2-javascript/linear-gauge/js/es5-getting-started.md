@@ -108,8 +108,6 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 **Individual Control Scripts:**
 
 **Syntax**
->`https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-lineargauge/dist/global/ej2-lineargauge.min.js`
->
 >`http://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
 
 **Example:**
@@ -125,7 +123,7 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 >
 > [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js)
 
-**Step 3:** Create a HTML page (index.html) in **~/quickstart/index.html** location and add the CDN link references. Now, add the `LinearGauge` element and initiate the **Syncfusion JavaScript (ES5) Linear Gauge** control in the **index.html** by using following code.
+**Step 3:** Create a HTML page (index.html) in **~/quickstart/index.html** location and add the CDN link references. Now, initiate the **Syncfusion JavaScript (ES5) Linear Gauge** control in the **index.html** by using following code.
 
 The below example shows a basic linear gauge component.
 
