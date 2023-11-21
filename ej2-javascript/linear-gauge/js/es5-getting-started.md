@@ -62,7 +62,7 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 </html>
 ```
 
-**Step 5:** Add the `LinearGauge` element and initiate the **Syncfusion JavaScript (ES5) LinearGauge** component in the **~/quickstart/index.html** by using the following code.
+**Step 5:** Initiate the **Syncfusion JavaScript (ES5) LinearGauge** component in the **~/quickstart/index.html** by using the following code.
 
 ```html
 <!DOCTYPE html>
@@ -88,7 +88,7 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 </html>
 ```
 
-**Step 6:** Run the `index.html` in web browser, it will render the **Syncfusion JavaScript Lineargauge** control.
+**Step 6:** Run the **index.html** in web browser, it will render the **Syncfusion JavaScript Lineargauge** control.
 
 ### Using CDN link for script reference
 
