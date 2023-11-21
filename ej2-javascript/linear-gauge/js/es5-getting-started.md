@@ -111,13 +111,11 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 >`http://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
 
 **Example:**
-> Linear-gauge Script: [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-lineargauge/dist/global/ej2-lineargauge.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-lineargauge/dist/global/ej2-lineargauge.min.js)
+> Linear Gauge Script: [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-lineargauge/dist/global/ej2-lineargauge.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-lineargauge/dist/global/ej2-lineargauge.min.js)
 >
 >Dependency Scripts
 >
 > [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-base/dist/global/ej2-base.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-base/dist/global/ej2-base.min.js)
->
-> [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-data/dist/global/ej2-data.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-data/dist/global/ej2-data.min.js)
 >
 > [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-svg-base/dist/global/ej2-svg-base.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-svg-base/dist/global/ej2-svg-base.min.js)
 >
