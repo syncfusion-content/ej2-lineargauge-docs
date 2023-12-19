@@ -225,3 +225,36 @@ The Linear Gauge component is rendered with margin by default. To remove the mar
 {% endif %}
 
 >To use this feature, set the [`allowMargin`](../api/linear-gauge/#allowmargin) property to **false**, the [`width`](../api/linear-gauge/#width) property to **100%** and the properties of [`margin`](../api/linear-gauge/#margin) to **0**.
+
+## Animating multiple elements simultaneously in Linear Gauge
+
+The Linear Gauge elements can be animated individually by using specific properties. Instead of that, you can animate all the elements such as axis lines, axis labels, tick lines, pointers, ranges, and annotations simultaneously by using the [animationDuration](../api/linear-gauge#animationduration) property, which controls the smoother visual effect and makes it easier to animate the elements.
+
+The below example shows an animated sequence that initiates with the axis line and axis labels, followed by animations for ranges, pointers, and annotations.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/linear-gauge/lineargauge-appearance-cs7/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/linear-gauge/lineargauge-appearance-cs7/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/linear-gauge/lineargauge-appearance-cs7" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/linear-gauge/lineargauge-appearance-cs7/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/linear-gauge/lineargauge-appearance-cs7/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/linear-gauge/lineargauge-appearance-cs7" %}
+{% endif %}

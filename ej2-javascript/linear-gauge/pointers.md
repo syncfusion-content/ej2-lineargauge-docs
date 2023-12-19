@@ -63,6 +63,7 @@ By default, the marker shape for the pointer is **InvertedTriangle**. To change 
 * InvertedTriangle
 * Diamond
 * Image
+* Text
 
 An image can be rendered instead of rendering a shape as a pointer. It can be achieved by setting the [`markerType`](../api/linear-gauge/pointerModel/#markertype) property to **Image** and setting the source URL of image to [`imageUrl`](../api/linear-gauge/pointerModel/#imageurl) property in [`pointers`](../api/linear-gauge/axisModel/#pointers).
 
@@ -93,6 +94,41 @@ An image can be rendered instead of rendering a shape as a pointer. It can be ac
 {% previewsample "page.domainurl/code-snippet/linear-gauge/pointers-cs2" %}
 {% endif %}
 
+The text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Text** and the text value can be set using the [text](../api/linear-gauge/pointerModel/#text) property in [pointers](api/linear-gauge/pointermodel).
+
+The text style of the text pointer can be customized using the following options available in the [textStyle](../api/linear-gauge/pointerModel/#textstyle) property.
+
+* [fontFamily](../api/linear-gauge/textStyleModel/#fontfamily) - It is used to change the font family of the text.
+* [fontStyle](../api/linear-gauge/textStyleModel/#fontstyle) - It is used to change the font style of the text.
+* [fontWeight](../api/linear-gauge/textStyleModel/#fontweight) - It is used to change the font weight of the text.
+* [size](../api/linear-gauge/textStyleModel/#size) - It is used to change the font size of the text.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/linear-gauge/pointers-cs10/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/linear-gauge/pointers-cs10/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/linear-gauge/pointers-cs10" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/linear-gauge/pointers-cs10/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/linear-gauge/pointers-cs10/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/linear-gauge/pointers-cs10" %}
+{% endif %}
 
 **Marker Pointer Customization**
 
