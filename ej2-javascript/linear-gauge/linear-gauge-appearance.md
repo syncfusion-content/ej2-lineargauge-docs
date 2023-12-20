@@ -226,11 +226,16 @@ The Linear Gauge component is rendered with margin by default. To remove the mar
 
 >To use this feature, set the [`allowMargin`](../api/linear-gauge/#allowmargin) property to **false**, the [`width`](../api/linear-gauge/#width) property to **100%** and the properties of [`margin`](../api/linear-gauge/#margin) to **0**.
 
-## Animating multiple elements simultaneously in Linear Gauge
 
-The Linear Gauge elements can be animated individually by using specific properties. Instead of that, you can animate all the elements such as axis lines, axis labels, tick lines, pointers, ranges, and annotations simultaneously by using the [animationDuration](../api/linear-gauge#animationduration) property, which controls the smoother visual effect and makes it easier to animate the elements.
+## Animating Linear Gauge completely
 
-The below example shows an animated sequence that initiates with the axis line and axis labels, followed by animations for ranges, pointers, and annotations.
+By setting the [animationDuration](../api/linear-gauge#animationduration) property, all of the elements in the Linear Gauge, such as the axis lines, ticks, labels, ranges, pointers and annotations, can be animated sequentially. When the `animationDuration` property is set to a value in milliseconds, the animation for the Linear Gauge is started, providing a smooth rendering effect for the component. The animation effect will not be started if the property is set to **0**, which is the default value. If this animation is enabled, the component will exhibit the following behavior.
+
+1. At the same time, the axis line, ticks, labels, and ranges will be animated.
+2. Pointers will be animated next if they are available.
+3. Annotations will be animated if they are available.
+
+The animation of the Linear Gauge is demonstrated in the example below.
 
 {% if page.publishingplatform == "typescript" %}
 

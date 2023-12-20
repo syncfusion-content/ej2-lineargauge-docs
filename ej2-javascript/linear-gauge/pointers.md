@@ -94,14 +94,14 @@ An image can be rendered instead of rendering a shape as a pointer. It can be ac
 {% previewsample "page.domainurl/code-snippet/linear-gauge/pointers-cs2" %}
 {% endif %}
 
-The text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Text** and the text value can be set using the [text](../api/linear-gauge/pointerModel/#text) property in [pointers](api/linear-gauge/pointermodel).
+Text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Text** and the text value can be set using the [text](../api/linear-gauge/pointerModel/#text) property in [pointers](api/linear-gauge/pointermodel).
 
-The text style of the text pointer can be customized using the following options available in the [textStyle](../api/linear-gauge/pointerModel/#textstyle) property.
+The following properties in the [textStyle](../api/linear-gauge/pointerModel/#textstyle) properties can be used to change the text style of the text pointer.
 
-* [fontFamily](../api/linear-gauge/textStyleModel/#fontfamily) - It is used to change the font family of the text.
-* [fontStyle](../api/linear-gauge/textStyleModel/#fontstyle) - It is used to change the font style of the text.
-* [fontWeight](../api/linear-gauge/textStyleModel/#fontweight) - It is used to change the font weight of the text.
-* [size](../api/linear-gauge/textStyleModel/#size) - It is used to change the font size of the text.
+* [fontFamily](../api/linear-gauge/textStyleModel/#fontfamily) - It is used to change the font family of the text pointer.
+* [fontStyle](../api/linear-gauge/textStyleModel/#fontstyle) - It is used to change the font style of the text pointer.
+* [fontWeight](../api/linear-gauge/textStyleModel/#fontweight) - It is used to change the font weight of the text pointer.
+* [size](../api/linear-gauge/textStyleModel/#size) - It is used to change the font size of the text pointer.
 
 {% if page.publishingplatform == "typescript" %}
 
