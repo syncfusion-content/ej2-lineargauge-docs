@@ -14,7 +14,6 @@ let gauge: LinearGauge = new LinearGauge(
                         color: '#6FC78A',
                         startWidth: 50,
                         endWidth: 50,
-                        offset: 5,
                         position: 'Inside'
                     },
                     {
@@ -23,7 +22,6 @@ let gauge: LinearGauge = new LinearGauge(
                         color: '#ECC85B',
                         startWidth: 50,
                         endWidth: 50,
-                        offset: 5,
                         position: 'Inside'
                     },
                     {
@@ -32,7 +30,6 @@ let gauge: LinearGauge = new LinearGauge(
                         color: '#FB7D55',
                         startWidth: 50,
                         endWidth: 50,
-                        offset: 5,
                         position: 'Inside'
                     },
                 ],
