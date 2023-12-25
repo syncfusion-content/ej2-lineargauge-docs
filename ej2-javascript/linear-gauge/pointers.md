@@ -123,7 +123,7 @@ Image can be rendered instead of rendering a shape as a pointer. It can be achie
 
 Text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](../api/linear-gauge/pointerModel/#markertype) property to **Text**, and the text content can be set using the [text](../api/linear-gauge/pointerModel/#text) property in [pointers](api/linear-gauge/pointermodel).
 
-The following properties in the [textStyle](../api/linear-gauge/pointerModel/#textstyle) properties can be used to set the text style for the text pointer.
+The following properties in the [textStyle](../api/linear-gauge/pointerModel/#textstyle) property can be used to set the text style for the text pointer.
 
 * [fontFamily](../api/linear-gauge/textStyleModel/#fontfamily) - It is used to set the font family for the text pointer.
 * [fontStyle](../api/linear-gauge/textStyleModel/#fontstyle) - It is used to set the font style for the text pointer.
