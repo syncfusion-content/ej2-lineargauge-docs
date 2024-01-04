@@ -30,4 +30,4 @@ The accessibility compliance of the Linear Gauge component is shown in the follo
 
 ## See also
 
-* [Accessibility in Syncfusion React components](../common/accessibility)
+* [Accessibility in Syncfusion ##Platform_Name## components](../common/accessibility)
