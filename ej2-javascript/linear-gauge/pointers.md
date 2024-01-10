@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Pointers in JavaScript Linear Gauge control | Syncfusion
+title: Pointers in JavaScript Linear Gauge Control | Syncfusion
 description: Learn here all about pointers in Syncfusion Essential JavaScript Linear Gauge control, its elements and more.
 platform: ej2-javascript
 control: Pointers 
-publishingplatform: JavaScript
+publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Pointers in JavaScript Linear Gauge control
+# Pointers in JavaScript Linear Gauge Control
 
 Pointers are used to indicate values on an axis. The value of the pointer can be modified using the [value](../api/linear-gauge/pointerModel/#value) property in [pointers](../api/linear-gauge/axisModel/#pointers).
 
