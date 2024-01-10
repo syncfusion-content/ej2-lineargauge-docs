@@ -20,7 +20,7 @@ The Linear Gauge component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/a
 | Attributes | Purpose |
 | --- | --- |
 | `role=region` | It is specified in the pointer where the interactive drag and drop function is supported to update the pointer value. |
-| `aria-label` | Provides an accessible name for the title. |
+| `aria-label` | Provides an accessible name for the axis labels, text pointer and annotation. |
 
 ## Screen reading in Linear Gauge
 
@@ -37,6 +37,8 @@ Accessibility in the Linear Gauge component ensures that all users, regardless o
 The Linear Gauge component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
 The accessibility compliance of the Linear Gauge component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/linear-gauge.html) in a new window to evaluate the accessibility of the Linear Gauge component with accessibility tools.
+
+{% previewsample "https://ej2.syncfusion.com/accessibility/linear-gauge.html" %}
 
 ## See also
 
