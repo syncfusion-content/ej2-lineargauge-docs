@@ -15,7 +15,7 @@ Linear Gauge has built-in accessibility features like screen reading and WAI-ARI
 
 ## WAI-ARIA attributes
 
-The Linear Gauge component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Linear Gauge component:
+The Linear Gauge control followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Linear Gauge control:
 
 | Attributes | Purpose |
 | --- | --- |
@@ -24,7 +24,7 @@ The Linear Gauge component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/a
 
 ## Screen reading in Linear Gauge
 
-Accessibility in the Linear Gauge component ensures that all users, regardless of ability or disability, can use screen reading. The following Linear Gauge elements will be read aloud using screen reading software, such as Narrator for Windows.
+Accessibility in the Linear Gauge control ensures that all users, regardless of ability or disability, can use screen reading. The following Linear Gauge elements will be read aloud using screen reading software, such as Narrator for Windows.
 
 | Elements | Description |
 | --- | --- |
@@ -34,12 +34,12 @@ Accessibility in the Linear Gauge component ensures that all users, regardless o
 
 ## Ensuring accessibility
 
-The Linear Gauge component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The Linear Gauge control's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Linear Gauge component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/linear-gauge.html) in a new window to evaluate the accessibility of the Linear Gauge component with accessibility tools.
+The accessibility compliance of the Linear Gauge control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/linear-gauge.html) in a new window to evaluate the accessibility of the Linear Gauge control with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/linear-gauge.html" %}
 
 ## See also
 
-* [Accessibility in Syncfusion ##Platform_Name## components](../common/accessibility)
+* [Accessibility in Syncfusion ##Platform_Name## controls](../common/accessibility)
