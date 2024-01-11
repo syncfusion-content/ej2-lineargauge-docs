@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accessibility in ##Platform_Name## Linear gauge control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Accessibility in ##Platform_Name## Linear Gauge control | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Linear Gauge control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Accessibility 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Accessibility in ##Platform_Name## Linear gauge control
+# Accessibility in ##Platform_Name## Linear Gauge control
 
 Linear Gauge has built-in accessibility features like screen reading and WAI-ARIA attributes.
 
